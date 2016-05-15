@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+#title {
+  font-family: "tat_cursive";
+  font-size: 28px;
+  margin: 5px 0 0 0;
+}
+
+.nav-pills {
+  margin: 7px 0 0 0;
+}
+
+.title-pic {
+  zoom: 70%;
+  width: 100%;
+  height: 100%;
+  background-attachment: scroll;
+}
+
+.modal-title {
+  font-family: "tat_cursive";
+  font-size: 25px;
+}
+
+.modal-body {
+  font-family: gravity;
+}
+
+body {
+  background: url('beehive.svg') #3c763d;
+}
