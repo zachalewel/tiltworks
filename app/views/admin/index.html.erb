@@ -1,8 +1,8 @@
 <div class="title-pic">
-<%= image_tag("big-logo.png") %>
+  <%= image_tag("big-logo.png") %>
 </div>
 <br>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal0">
-  Learn more about Tiltworks.
-</button>
+<!-- Div that contains a button to the about page -->
+<div class="about-button">
+  <%= button_to 'Learn more about Tiltworks', '/about', method: :get, class: "btn btn-lg btn-success" %>
+</div>

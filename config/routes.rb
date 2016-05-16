@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'contact' => 'admin#contact'
 
+  get 'icon' => 'admin#icon'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

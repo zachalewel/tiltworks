@@ -8,6 +8,6 @@ class AdminController < ApplicationController
   end
 
   def contact
-
   end
+
 end
