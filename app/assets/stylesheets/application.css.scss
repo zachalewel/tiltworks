@@ -25,12 +25,15 @@
   margin: 7px 0 0 0;
 }
 
-/* Picture for the Home page */
+/* Div containing large logo for the Home page */
 .title-pic {
   zoom: 70%;
+}
+
+/* Large logo image */
+#title-pic {
   width: 100%;
-  height: 100%;
-  background-attachment: fixed;
+  height: auto;
 }
 
 //===========================================
@@ -52,16 +55,16 @@
   text-align: center;
 }
 
-// Buttons within the First Modal that launch the other Modals
+/* Buttons within the First Modal that launch the other Modals */
 .modal-button {
   margin: 50px 0 0 0;
   text-align: center;
 }
-// Sticker images in the featurettes
+
+/* Sticker images in the featurettes */
 #about-stickers {
   padding-left: 10%;
 }
-
 
 // ======================================
 // ========= Contact Page ==============
@@ -71,19 +74,40 @@
   padding-top: 1%;
   margin: 0 auto;
   width: 50%;
+  height: 300px;
 }
 
-// The div containing text "We are located..."
+/* Media query that resizes the already responsive map to fit a cell phone screen better */
+@media only screen and (max-width: 500px) {
+  .map-canvas {
+    padding-top: 1%;
+    margin: 0 auto;
+    width: 75%;
+    height: 250px;
+  }
+}
+
+/* The div containing text "We are located..." */
 .above-map {
   text-align: center;
 }
 
-// The background container to the contact form
+/* The background container to the contact form */
 .contact-info {
   border-radius: 25px;
   border: solid .5px;
   border-color: #a1a1a1;
   background-color: rgba(255, 255, 255, 0.53);
+}
+/* Full size weather i-frame */
+#forecast_embed {
+  margin-left: 25%;
+}
+/* Mobile size weather i-frame */
+@media only screen and (max-width: 500px) {
+  #forecast_embed {
+    width: 60%;
+  }
 }
 
 // ========================================
