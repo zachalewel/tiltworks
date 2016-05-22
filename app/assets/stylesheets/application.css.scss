@@ -43,6 +43,8 @@
 .modal-body {
   font-family: gravity;
 }
+
+
 /* Button that launches the modal on the "about" page */
 .about-button {
   text-align: center;
@@ -51,7 +53,6 @@
 .modal-button {
   margin: 50px 0 0 0;
   text-align: center;
-  height: 400px;
 }
 
 /* The Div that contains the map */
@@ -72,11 +73,11 @@
   text-align: center;
 }
 
-.contact-info:hover {
+.contact-info {
   border-radius: 25px;
   border: solid .5px;
   border-color: #a1a1a1;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.53);
 }
 
 video#bgvid {
@@ -100,7 +101,6 @@ video#bgvid {
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-
   padding: 55px 50px;
   margin-top: 80px;
 }
@@ -265,5 +265,4 @@ video#bgvid {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-
 }

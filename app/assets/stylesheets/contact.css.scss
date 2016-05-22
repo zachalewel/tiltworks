@@ -1,6 +1,5 @@
 body.welcome
 {
-  background: {
-    image: asset-url("image.jpg");
-  }
+  background: url('contact.jpg') no-repeat;
+  background-size: cover;
 }

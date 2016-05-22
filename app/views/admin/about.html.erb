@@ -1,4 +1,33 @@
-<!-- Button trigger modal -->
+
+<!-- START THE FEATURETTES -->
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading"> We’re a Graphics Design company <span class="text-muted">specializing</span> in apparel design.</h2>
+
+    <p class="lead">Tiltworks excels at creating engaging screen-printed apparel designs for some of the best known brands on the planet. We turn bright new ideas into beautiful, smart, funny or straight-up inspiring brand experiences through a combination of visionary thinking, exhaustive research and a collaborative design process with highly experienced creative brains.</p>
+  </div>
+  <div class="col-md-5">
+  <%= image_tag('forest.png') %>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 col-md-push-5">
+    <h2 class="featurette-heading">T-Hive is <span class="text-muted">changing </span>the way we think about product development.</h2>
+    <p class="lead">T-hive serves as the communication center for all projects, providing the entire team with real time updates on art development and scheduling. A project can be monitored throughout its entire history, from the initial call for ideas
+      right up through its preparation for production. </p>
+  </div>
+  <div class="col-md-5 col-md-pull-7">
+   <%= image_tag('beach.png') %>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- Trigger button for Modal -->
 <div class="modal-button">
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal0">
     Learn What We Are About
@@ -12,7 +41,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Tiltworks</h4>
+        <%= image_tag('navbar-logo.png', id: 'nav-logo') %>
       </div>
       <div class="modal-body">
 
@@ -37,11 +66,12 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Tiltworks</h4>
+        <%= image_tag('navbar-logo.png', id: 'nav-logo') %>
       </div>
       <div class="modal-body">
         Tiltworks excels at creating engaging screen-printed apparel designs for some of the best known brands on the
-        planet. We turn bright new ideas into beautiful, smart, funny or straight-up inspiring brand experiences through
+        planet. We turn bright new ideas into beautiful, smart, funny or straight-up inspiring brand experiences
+        through
         a combination of visionary thinking, exhaustive research and a collaborative design process with highly
         experienced creative brains.
         <br>
@@ -49,14 +79,18 @@
         ﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠﾠA strategic partnership with award-winning New Buffalo
         Shirt Factory, with print facilities located in New York and
         Central America, and a strategic partnership with Anvil Knitwear,
-        world leader in today’s sustainable apparel industry help, bring the finished products to life. A key strategic
-        alliance with China Direct in addition to a broad spectrum of mills and distributors round out our assortment of
+        world leader in today’s sustainable apparel industry help, bring the finished products to life. A key
+        strategic
+        alliance with China Direct in addition to a broad spectrum of mills and distributors round out our assortment
+        of
         garments.
 
         <br>
         <br>
-        Based in Asheville, NC and energized by a global collection of artists, designers and product developers from a
-        variety of disciplines and backgrounds, Tiltworks offers an endless array of design styles, creative directions
+        Based in Asheville, NC and energized by a global collection of artists, designers and product developers from
+        a
+        variety of disciplines and backgrounds, Tiltworks offers an endless array of design styles, creative
+        directions
         and specialty techniques.
 
         Get under the hood of Tiltworks and you’ll find T-hive, our proprietary work engine and the muscle behind the
@@ -74,7 +108,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <%= image_tag('thive.png', size: '228x90') %>
+        <%= image_tag('navbar-logo.png', id: 'nav-logo') %>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel"></h4>
@@ -99,7 +133,8 @@
         <br>
         Freelance contributors get on the T-hive train as well with access to a ﾠlibrary of relevant project
         materials and information as well ﾠwebinars and tutorial videos. All file transfers, including in-progress
-        imagery and master files, are handled through the secured T-hive interface and freelancers can even keep tabs on
+        imagery and master files, are handled through the secured T-hive interface and freelancers can even keep tabs
+        on
         their project histories, open call submissions or invoices.
       </div>
       <div class="modal-footer">

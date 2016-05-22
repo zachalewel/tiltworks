@@ -1,8 +1,16 @@
+<!-- Background Video loop -->
+<video autoplay loop id="bgvid">
+  <source src="http://static-p.iuqo.com/media/home/home/video/cloud.mp4" type="video/mp4">
+</video>
+<br>
+<!-- Transparent Tiltworks logo  -->
 <div class="title-pic">
+  <br>
   <%= image_tag("big-logo.png") %>
 </div>
 <br>
+
 <!-- Div that contains a button to the about page -->
 <div class="about-button">
-  <%= button_to 'Learn more about Tiltworks', '/about', method: :get, class: "btn btn-lg btn-success" %>
+  <%= button_to 'More about Tiltworks', '/about', method: :get, class: "btn btn-lg btn-success", id: 'home-button' %>
 </div>
