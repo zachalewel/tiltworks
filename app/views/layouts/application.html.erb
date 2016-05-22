@@ -24,19 +24,6 @@
   <!-- only if you need custom infoboxes -->
 
 
-  <!-- Adds ability to reference fonts in css by calling the corresponding "font-family"-->
-  <style>
-    @font-face {
-      font-family: "tat_cursive";
-      src: url(/assets/fat_tats/Fat\ Tats.ttf) format("truetype");
-    }
-
-    @font-face {
-      font-family: "gravity";
-      src: url(/assets/gravity/Gravity-Bold.otf) format("truetype");
-    }
-  </style>
-
   <!--%>Adds favicon to all tabs-->
   <%= favicon_link_tag 't.png' %>
   <%= stylesheet_link_tag "contact" if controller_name == "contact" %>
@@ -93,25 +80,25 @@
   <div class="footer-center">
     <div>
       <%= image_tag('location.png', size: '36x36') %>
-      <p style="font-family: 'Gravity';"><span>600 Julian Lane Suite 650</span><span>Arden, NC</span></p>
+      <h6><span>600 Julian Lane Suite 650</span><span>Arden, NC</span></h6>
     </div>
     <div>
       <i class="fa fa-phone"></i>
-      <p style="font-family: 'Gravity';">+1 828 6760718</p>
+      <h6>+1 828 6760718</h6>
     </div>
     <div>
       <%= image_tag('message.png', size: '36x36') %>
-      <p style="font-family: 'Gravity';"><span><a href="mailto:zach@ramble-apps.com">support@tiltworks.com</a></span>
-      </p>
+      <h6><span><a href="mailto:zach@ramble-apps.com">support@tiltworks.com</a></span>
+      </h6>
     </div>
   </div>
   <div class="footer-right">
-    <p class="footer-company-about" style="font-family: 'Gravity';">
+    <h6 class="footer-company-about">
       <span>We are looking for Artists</span>
       New artist freelance inquiries Contact:
       Charles Hoffman
     <span><a href="mailto:choffman@tiltworks.com">chofffman@tiltworks.com</a></span>
-    </p>
+    </h6>
     <div class="footer-icons">
       <a href="https://www.facebook.com/Tiltworks-128276000576817/"><%= image_tag('facebook.png', size: '36x36') %></a>
       <a href="https://twitter.com/Tiltworks"><%= image_tag('twitter.png', size: '36x36') %></a>
